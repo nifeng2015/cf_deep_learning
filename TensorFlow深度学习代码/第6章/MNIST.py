@@ -1,7 +1,7 @@
 
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("/home/jiangziyang/MNIST_data",one_hot=True)
+mnist = input_data.read_data_sets("MNIST_data",one_hot=True)
 
 batch_size = 100                #设置每一轮训练的batch大小
 learning_rate = 0.8             #学习率
